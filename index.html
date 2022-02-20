@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goa Trip</title>
+    <link rel="stylesheet" href="api/style.css">
+</head>
+<body>
+    <img class="bg" src="images/goa view.jpg" alt="goa beach">
+    <div class="container">
+        <h1>Lets go for a TRIP to GOA </h3>
+
+        <!-- <?php
+        include("connection.php");
+        if($show == 1){
+            echo '<p class = msg>  </p>';
+        }
+
+        ?> -->
+        
+        <form action="api/index.php" method="post">
+            
+            <input type="text" name="fname" id="fname" placeholder="Enter your First Name">
+            <input type="text" name="lname" id="lname" placeholder="Enter your Last Name">
+            <input type="text" name="age" id="age" placeholder="Enter your Age">
+            <input type="text" name="gender" id="gender" placeholder="Enter your Gender">
+            <input type="phone" name="phone" id="phone" placeholder="Enter your Phone Number">
+            <input type="email" name="email" id="email" placeholder="Enter your Email ID">
+            <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter you address"></textarea>
+            <button class="btn">Submit</button> 
+
+        </form>
+    </div>
+    
+    
+</body>
+</html>
